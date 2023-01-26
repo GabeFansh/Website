@@ -1,0 +1,42 @@
+body {
+    background-color:darkslategray;
+}
+
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav-bar-item{
+    text-decoration: none;
+    text-decoration-color: red;
+    background-color: black;
+    color:red;
+    margin: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.nav-bar-item:hover{
+    filter: brightness(95%);
+}
+
+.test_button{
+    color:orange;
+    background-color: green;
+    position: absolute;
+    top:100px;
+    left:100px;
+    transition: 0.5s;
+    width: 200px;
+    height:50px;
+}
+
+.test_button:hover{
+    box-shadow: 0 0 3px black;
+    margin-top: -0.5px;
+}
+
