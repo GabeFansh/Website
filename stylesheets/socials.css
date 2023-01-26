@@ -13,9 +13,8 @@
 .wrapper {
   display: inline-flex;
   list-style: none;
-  position: fixed;
-  left:325px;
-  top: 310px;
+  position: absolute;
+  left:125px;
 }
 .wrapper .icon {
   position: relative;
@@ -73,6 +72,7 @@
 .wrapper .instagram:hover .tooltip::before {
   background: #E4405F;
   color: #ffffff;
+  
 }
 .wrapper .github:hover,
 .wrapper .github:hover .tooltip,
@@ -80,9 +80,10 @@
   background: #333333;
   color: #ffffff;
 }
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: #0072b1;
   color: #ffffff;
+  
 }

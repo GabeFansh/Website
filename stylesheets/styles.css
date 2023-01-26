@@ -2,26 +2,42 @@ body {
     background-color:darkslategray;
 }
 
+html {
+    height: 100%;
+    margin: auto;
+    width: 960px;
+    overflow-y: auto;
+  }
+
+
+
 .nav-bar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 30px;
+    background-color: black;
+    height:50px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .nav-bar-item{
     text-decoration: none;
     text-decoration-color: red;
-    background-color: black;
     color:red;
     margin: 0px;
     padding-right: 10px;
     padding-left: 10px;
+    position: relative;
+    top: 10px;
+    text-align: center;
 }
 
 .nav-bar-item:hover{
-    filter: brightness(95%);
+    background-color: grey;
 }
 
 .test_button{
