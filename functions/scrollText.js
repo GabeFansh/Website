@@ -10,7 +10,7 @@ var greetings = [ "text1",
 "text10"
 ];
 
-var msecs = 4000; //Milliseconds that will wait to change the text
+var msecs = 10000; //Milliseconds that will wait to change the text
 var marq = document.getElementById("marq"); //The object
 var pix = marq.clientWidth; //The width in the screen
 
